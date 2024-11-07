@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg- lightYellow">
       <div className="my-[30px] mx-[10px] grid grid-cols-1 customMd:grid-cols-2 customLg:m-[100px] customLg:grid-cols-2 customMd:mt-32">
         <div className="flex items-center justify-center text-customBlue flex-col animate-leftAnimate">
           <p className="text-xl m-0 p-0 capitalize customLg:py-[15px] customLg:text-2xl  customLg:-my-[10px] font-sans">hello, i&apos;m nofil,</p>  
