@@ -9,9 +9,33 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #FBF8CC;
     --foreground: #ededed;
   }
+}
+
+.grid-row {
+  grid-template-columns: 50px;
+}
+
+.grid-row-three {
+  grid-template-rows: 300px 300px 300px;
+}
+
+.grid-row-three-min {
+  grid-template-rows: 150px 150px 150px ;
+}
+
+.customShadow {
+  box-shadow: 1px 1px 0px #474306;
+}
+
+.customShadow2 {
+  box-shadow: 1px 1px 5px #474306;
+}
+
+.textCustomShadow {
+  text-shadow: 1px 1px 0px #474306;
 }
 
 body {
