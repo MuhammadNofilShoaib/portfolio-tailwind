@@ -12,7 +12,7 @@ export default function Home() {
           <a download='/resume.pdf' href="/resume.pdf"><button className="font-sans w-[114px] h-[38px] my-[10px] bg-darkYellow uppercase text-xl outline-none rounded-[6px] border border-customBorder customShadow ease-in-out duration-200 hover:translate-y-1 hover:saturate-[130%] customMd:w-[164px] customMd:h-[48px]">resume</button></a> 
         </div>
         <div className="flex justify-center items-center"> 
-        <Image className="animate-rightAnimate w-[250px] h-[250px] my-[10px] rounded-full border-2 border-customBorder customShadow customMd:w-[350px] customMd:h-[350px] customLg:w-[506px] customLg:h-[506px]" src='/nofil.png' alt="nofilshoaib" width={506} height={509}></Image>
+        <Image className="animate-rightAnimate w-[250px] h-[250px] my-[10px] rounded-full border-2 border-customBorder customShadow customMd:w-[350px] customMd:h-[350px] hover:customMd:h-[360px] hover:customMd:w-[360px] customLg:w-[506px] customLg:h-[506px] hover:customLg:h-[512px] hover:customLg:w-[512px] duration-300 ease-in-out" src='/nofil.png' alt="nofilshoaib" width={506} height={509}></Image>
       </div>
       </div>
     </div>
